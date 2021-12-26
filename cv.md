@@ -30,7 +30,7 @@ console.log('hello world')
 _______________________________
 
 ### Education:  
-[RS School JavaScript/Front-end 2021Q3](https://rs.school)  
+[RS School JavaScript/Front-end](https://rs.school)  
 
 _______________________________
 
