@@ -1,1 +1,1 @@
-# rsschool-cv
+[CV Markdown & Git](https://laperson.github.io/rsschool-cv/cv)
