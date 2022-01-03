@@ -1,3 +1,96 @@
-html {
-    
+body {
+  background-color: black;
+  color:white;
+  margin: 0;
+  }
+
+a {
+  text-decoration: none;
+  color: gold;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    background: linear-gradient();
+    font-size: 2em;
+  }
+
+  h2:not(#top h2) {
+    text-align: center;
+    margin: 40px;
+   
+  }
+
+header, main, footer {
+  max-width: 1000px;
+  margin: auto;
 }
+
+#top {
+  display: flex;
+  align-items:center;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-size: 1.5em;
+}
+.nav li {
+  padding: 10px 30px 10px 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: black;
+}
+
+#top img {
+  max-width: 300px;
+}
+#tasks img {
+  max-width: 200px;
+}
+
+footer img {
+  max-height: 70px;
+}
+
+ul:not(.nav) {
+  font-size: 1.3em;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 50px;
+}
+#top div {
+  flex-grow: 1;
+  text-align: center;
+  
+}
+#top h1 {
+  margin: 0;
+}
+
+#top h2 {
+  margin: 0;
+}
+
+code {
+  background-color: black;
+}
+
